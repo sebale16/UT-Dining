@@ -13,6 +13,7 @@ import { useMealPlanStore } from '~/store/useMealPlanStore';
 import { useSettingsStore } from '~/store/useSettingsStore';
 import { COLORS } from '~/utils/colors';
 import Alert from './Alert';
+import { red } from 'react-native-reanimated/lib/typescript/Colors';
 
 const icon = require('../assets/image.png');
 
