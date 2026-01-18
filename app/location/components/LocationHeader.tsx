@@ -78,7 +78,7 @@ export const LocationHeaderBody = React.memo(
     }, [location, locationData, db.select]);
 
     return (
-      <View className="mx-6 mt-6 flex gap-y-5">
+      <View className="mx-6 flex gap-y-5">
         {/* Content that's hidden when search is focused */}
         {!isSearchFocused && (
           <>
